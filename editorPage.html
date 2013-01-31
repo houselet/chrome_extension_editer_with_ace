@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+
+<title>Browser Editor with ACE backend</title>
+<style type="text/css" media="screen">
+body {overflow: hidden;}
+#ed {margin: 0; position:absolute; top:0; bottom:0; left:0; right:0;}
+</style>
+</head>
+
+<body>
+
+<pre id="ed">#include "stdio.h"
+int main (int argc, char*argv[]){
+    printf("Greeting Use Browser Editor!\n");
+}</pre>
+
+<script src="src-min-noconflict/ace.js" type="text/javascript" charset="utf-8"></script>
+<script src="editor_configure.js" type="text/javascript" charset="utf-8"></script>
+
+</body>
+</html>
