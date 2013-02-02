@@ -18,3 +18,13 @@ delete edcontent;
 ed.getSession().on('change', function(){ 
      localStorage.setItem("edcontent", ed.getSession().getValue());
 });
+
+
+// load by key
+// mainkey(your email) --> documentkey(uuid when new), documentkey, 
+//      .... hash content and cursers and description(datatime, length, keywords) by key and save it.
+//		.... delete the documentkey when content empty
+// backup your document by your email stmp.
+// (datatime, length, keywords)
+//
+// 
